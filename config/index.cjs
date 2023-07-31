@@ -5,13 +5,13 @@
  * 如若想使用更多功能，请查考文档中的 【3. config参数说明】 
  * 自行添加属性，以支持更多个性化功能
  */
-const USER_CONFIG = {
+const userConfig = {
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx845e6e0163055780',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'ea18230e2eeb65a539f183ce9d3de492',
+  APP_SECRET: 'b76f2b8c3183e512919de10d9a66c0c4',
 
   PROVINCE: '广东',
   CITY: '云浮',
@@ -57,7 +57,7 @@ const USER_CONFIG = {
     {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o2chZ63YBvg_gHZ_udKa4vx8Is-A',
     }
   ],
 
