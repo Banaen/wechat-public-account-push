@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx845e6e0163055780',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'ea18230e2eeb65a539f183ce9d3de492',
 
   PROVINCE: '广东',
   CITY: '云浮',
@@ -21,19 +21,19 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'o2chZ63YBvg_gHZ_udKa4vx8Is-A',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '',
+      useTemplateId: 'o2chZ67S3ZRpTGXgxxNME8C_pIS4',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '7-18',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '2004', date: '06-00',
+          type: '*生日', name: '小宝贝', year: '2004', date: '06-00',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '2004', date: '07-18',
+          type: '生日', name: '大宝贝', year: '2004', date: '07-18',
         },
         {
           type: '节日', name: '相识纪念日', year: '2023', date: '07-20',
